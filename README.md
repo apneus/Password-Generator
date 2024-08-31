@@ -93,17 +93,4 @@ Was even able to add a 'Copy to Clipboard' button on the output message.
      - In the copy_to_clipboard() function, the text of status_label is updated to "Password copied to clipboard!" whenever the password is successfully copied to the clipboard.
      - In the update_password() function, the status_label text is cleared each time a new password is generated.
   
-  
-```
-import customtkinter as ctk
-from tkinter import filedialog, Tk, Listbox
-import pygame
-import os
-
-# Initialize Pygame Mixer for audio playback
-pygame.mixer.init()
-
-# Set the appearance mode for CustomTkinter
-ctk.set_appearance_mode("dark")  # Set to 'dark' mode
-```
 
