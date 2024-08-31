@@ -27,7 +27,7 @@ Was even able to add a 'Copy to Clipboard' button on the output message.
 1. Import customtkinter instead of tkinter.
 2. Use CTk and other customtkinter widgets for a consistent dark theme.
 
-Main Changes:
+### Main Changes:
 
 1. Replaced tkinter imports with customtkinter (ctk).
 2. Used CTk, CTkToplevel, CTkEntry, and CTkButton for the GUI components.
@@ -40,7 +40,7 @@ Main Changes:
 1. Add a button that calls the function to generate a new password.
 2. The function generates and displays the new password in the existing password entry field.
 
-Main Changes:
+### Main Changes:
 
 1. update_password() Function: A new function that generates a new password and updates the password_entry field.
 2. generate_button: A new button labelled "Generate New Password" that triggers update_password() when clicked.
@@ -54,7 +54,7 @@ Main Changes:
 2. Modified the password generation function to use the specified length from the Entry widget.
 3. Updated the UI to include this new input field and ensure the password updates accordingly when the length is changed.
 
-Main Changes:
+### Main Changes:
 
 1. Password Length Input: Added a CTkEntry widget (length_entry) for users to input the desired password length.
 2. Validation and Default Length: When generating a new password, the update_password() function checks if the user input is a valid integer. If not, it defaults to a length of 18.
@@ -66,7 +66,7 @@ Main Changes:
 
 ### Changed the password length input box to a dropdown menu (combobox)
 
-Main Changes:
+### Main Changes:
 
 1. Combobox for Password Length:
      - Replaced the Entry widget for password length with a CTkComboBox widget
@@ -84,7 +84,7 @@ Main Changes:
 
 ### Replaced (annoying) messagebox with password copied to clipboard on bottom of main window
 
-Main Changes:
+### Main Changes:
 
 1. Status Label (status_label):
      - A CTkLabel widget named status_label is added to the bottom of the window. This label is initially empty and is used to display messages like "Password copied to clipboard!".
