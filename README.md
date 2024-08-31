@@ -96,7 +96,7 @@ Was even able to add a 'Copy to Clipboard' button on the output message.
 
 
 
-```python:
+```python
 import customtkinter as ctk
 from tkinter import filedialog, Tk, Listbox
 import pygame
