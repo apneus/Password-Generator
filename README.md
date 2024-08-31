@@ -3,7 +3,7 @@ the code best I can as a beginner. Clearly, experienced programmers will know th
 quick glance at the code, but for beginners, I hope this, along with the many comments in 
 the code helps in some way.
 
-PASSWORD GENERATOR WORKING BETA
+# PASSWORD GENERATOR WORKING BETA
 
 Initial code worked perfectly:
 
@@ -20,9 +20,9 @@ Was even able to add a 'Copy to Clipboard' button on the output message.
 
 ----------------------------------------------------------------------------------
 
-PASSWORD GENERATOR 1.0 USABILITY IMPROVEMENTS
+# PASSWORD GENERATOR 1.0 USABILITY IMPROVEMENTS
 
-# Code completely re-written to implement customtkinter 
+Code completely re-written to implement customtkinter 
 
 1. Import customtkinter instead of tkinter.
 2. Use CTk and other customtkinter widgets for a consistent dark theme.
@@ -35,7 +35,7 @@ Main Changes:
 
 
 
-# Added a button that calls a function to generate a new password.
+Added a button that calls a function to generate a new password.
 
 1. Add a button that calls the function to generate a new password.
 2. The function generates and displays the new password in the existing password entry field.
@@ -48,7 +48,7 @@ Main Changes:
 
 
 
-# Added option for user to specify the number of characters in password
+Added option for user to specify the number of characters in password
 
 1. Added an Entry widget for the user to input the desired password length.
 2. Modified the password generation function to use the specified length from the Entry widget.
@@ -62,11 +62,11 @@ Main Changes:
 
 ----------------------------------------------------------------------------------
 
-PASSWORD GENERATOR 2.0 USABILITY IMPROVEMENTS
+# PASSWORD GENERATOR 2.0 USABILITY IMPROVEMENTS
 
-# Changed the password length input box to a dropdown menu (combobox)
+Changed the password length input box to a dropdown menu (combobox)
 
-Key Changes:
+Main Changes:
 
 1. Combobox for Password Length:
      - Replaced the Entry widget for password length with a CTkComboBox widget
@@ -80,9 +80,9 @@ Key Changes:
 
 ----------------------------------------------------------------------------------
 
-PASSWORD GENERATOR 3.0 USABILITY IMPROVEMENTS
+# PASSWORD GENERATOR 3.0 USABILITY IMPROVEMENTS
 
-# Replaced (annoying) messagebox with password copied to clipboard on bottom of main window
+Replaced (annoying) messagebox with password copied to clipboard on bottom of main window
 
 Main Changes:
 
